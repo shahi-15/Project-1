@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <title>Fronten Mentor | News Homepage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <img src="logo.svg" alt="Logo">
+      <ul class="nav">
+        <li class="options">Home</li>
+        <li class="options">New</li>
+        <li class="options">Popular</li>
+        <li class="options">Trending</li>
+        <li class="options">Categories</li>
+        <li id="menu-icon"><img src="menu.svg" alt="Menu" onclick="show()"></li>
+      </ul>
+      <ul class="sidebar">
+        <li><img src="close.svg" alt="Close" onclick="hide()"></li>
+        <li>Home</li>
+        <li>New</li>
+        <li>Popular</li>
+        <li>Trending</li>
+        <li>Categories</li>
+      </ul>
+    </header>
+    <div id="sspace" onclick="hide()"></div>
+
+  <div class="sec1">
+    <div class="left">
+      <img src="desktop-web.jpg" alt="image" id="sec1image">
+      <div class="down">
+        <div class="rightdown">
+          The Bright Future of Web 3.0?
+        </div>
+        <div class="leftdown">
+          We dive into the next evolution of the web that claims to put the power of the platforms back into the hands
+          of the people.
+          But is it really fulfilling its promise?<br>
+          <button onclick="window.open('https://www.google.com','_blank')">Read more</button>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <h1>New</h1>
+      <p class="topics">
+      <h2>Hydrogen VS Electric Cars</h2>
+      Will hydrogen-fueled cars ever catch up to EVs?
+      </p>
+      <p class="topics">
+      <h2>The Downsides of AI Artistry</h2>
+      What are the possible adverse effects of on-demand AI image generation?
+      </p>
+      <p class="topics">
+      <h2>Is VC Funding Drying Up?</h2>
+      Private funding by VC firms is down 50% YOY. We take a look at what that means.
+      </p>
+    </div>
+  </div>
+
+  <div class="sec2">
+    <div class="article">
+      <img src="pcs.jpg" alt="image" class="articleimg">
+      <div class="a-content">
+        <h1 class="case">01</h1>
+        <h3>Reviving Retro PCs</h3>
+        What happens when old PCs are given modern upgrades?
+      </div>
+    </div>
+    <div class="sec2">
+        <img src="laptops.jpg" alt="image" class="articleimg">
+        <div class="a-content">
+        <h1 class="case">02</h1>
+        <h3>Top 10 Laptops of 2022</h3>
+        Our best picks for various needs and budgets.
+      </div>
+    </div>
+    <div class="sec2">
+        <img src="gaming.jpg" alt="image" class="articleimg">
+        <div class="a-content">
+        <h1 class="case">03</h1>
+        <h3>Growth of Gaming</h3>
+        How the pandemic has sparked fresh opportunities.
+      </div>
+    </div>
+  </div>
+  <div class="credits">
+    <h6>Created By:<a href="https://www.instagram.com/shahi_.15?igsh=MWdrenFsdTJoMmx0OA==">Shahid Ibrahim</a></h6>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
