@@ -43,9 +43,6 @@ header{
     list-style: none;
     display: none;
     box-shadow:-100px 0px 100px rgba(22, 10, 10, 0.274);
-    animation-name:box;
-    animation-duration: 0.5s;
-    animation-delay: 0ms;
     box-sizing: border-box;
 }
 
